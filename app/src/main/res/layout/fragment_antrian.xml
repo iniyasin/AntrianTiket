@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoketSatu">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nomor_antrian_anda_adalah"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="195dp"/>
+
+    <TextView
+        android:id="@+id/nomorAntrian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_000"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#000"
+        android:textSize="96sp"
+        android:textStyle="bold"
+        android:layout_marginTop="42dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/silahkan_ambil_tiket_di_loket"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_rounded_selesai"
+        android:text="@string/selesai" />
+
+</LinearLayout>

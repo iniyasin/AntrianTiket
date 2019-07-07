@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AntrianTiket</string>
+    <string name="nama">Nama</string>
+    <string name="nomor_telpon">Nomor Telpon</string>
+    <string name="alamat">Alamat</string>
+    <string name="loket_satu">Loket Satu</string>
+    <string name="loket_dua">Loket Dua</string>
+    <string name="nomor_antrian_anda_adalah">Nomor Antrian Anda Adalah</string>
+    <string name="_000">000</string>
+    <string name="silahkan_ambil_tiket_di_loket">Silahkan Ambil Tiket di Loket</string>
+    <string name="selesai">Selesai</string>
+</resources>
